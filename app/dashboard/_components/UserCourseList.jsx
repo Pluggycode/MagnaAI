@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 import { CourseList } from '@/configs/Schema'
 import { db } from '@/configs/db'
 import { eq } from 'drizzle-orm'
+import CourseCard from './CourseCard'
 import Image from 'next/image'
 import { UserCourseListContext } from '@/app/_context/UserCourseList'
 
