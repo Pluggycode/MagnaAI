@@ -13,6 +13,7 @@ export default function RootLayout({ children}) {
   return (
     <ClerkProvider>
     <html lang="en">
+    <meta name="google-site-verification" content="paPIDxqrB5gmTSLUoEBQaWwIIp2yhI-i6gCNbIVig4s" />
       <body className={inter.className}>{children}</body>
     </html>
     </ClerkProvider>
